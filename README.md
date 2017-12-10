@@ -9,6 +9,8 @@ To set up:
 * Sorry, didn't get around to tests. It mostly works. There might be a few bugs.
 
 **Changes Made:
-1) add qty validation to order_item model so site doesn't break when product of qty 0 is added. Instead nothing happens, <b>should still add a flash</b>
+1) Add qty validation to order_item model so site doesn't break when product of qty 0 is added. Instead nothing happens, <b>should still add a flash</b>
 
-2)
+2) Add QTY > 0 flash, <b> should make it a fancy flash now </b>
+
+3)
